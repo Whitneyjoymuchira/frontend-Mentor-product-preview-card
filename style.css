@@ -1,0 +1,71 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+   
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 38%;
+    
+}
+
+.card{
+    background-color:hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    height: 380px;
+    width:250px ;
+    border-radius:10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+.leftie{
+    box-sizing: border-box;
+    height: 380px;
+    width:250px ;
+    border-radius:10px ;
+    justify-content: center;
+    border-top-right-radius:0px;
+    border-bottom-right-radius: 0px;
+
+}
+
+.price{
+    display: flex;
+    justify-content: space-around;
+}
+.cancel{
+    text-decoration: line-through;
+}
+button{
+    background-color:hsl(158, 36%, 37%);
+    text-align: center;
+    padding:auto;
+    margin-top: x;
+    border-radius: 7px;
+    height: 30px;
+    width: 180px;
+  
+}
+.paragraph{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+
+}
+h2{
+    font-family: 'Fraunces', serif;
+}
+.perfume{
+    justify-content: center;
+}
+.new{
+    color: green; 
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: large;
+}
